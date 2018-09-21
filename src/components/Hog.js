@@ -28,7 +28,7 @@ export default class Hog extends Component {
      <div className="ui card">
        <div className="content">
          <h4>Name: {name}</h4>
-         <img src={getHogImage(name)} />
+         <img src={getHogImage(name)} alt="pigz"/>
          <button onClick= {displayDetails}>Show Details!</button>
          {infoState ? (
             <div>
